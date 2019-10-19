@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		9F29C3B62353AA1E0080C430 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F29C3B52353AA1E0080C430 /* DetailVC.swift */; };
 		9F29C3B82353ADA30080C430 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F29C3B72353ADA30080C430 /* ListVC.swift */; };
 		9F29C3BA2353AEBE0080C430 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F29C3B92353AEBE0080C430 /* PageVC.swift */; };
+		9F8AB352235BADB200D7B0A4 /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8AB351235BADB200D7B0A4 /* WeatherLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9F29C3B52353AA1E0080C430 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		9F29C3B72353ADA30080C430 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		9F29C3B92353AEBE0080C430 /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
+		9F8AB351235BADB200D7B0A4 /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
 		AC131610EED45C7756172B76 /* Pods-WeatherGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift.debug.xcconfig"; path = "Target Support Files/Pods-WeatherGift/Pods-WeatherGift.debug.xcconfig"; sourceTree = "<group>"; };
 		E04FEC492D62F0EF14ACAA80 /* Pods_WeatherGift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherGift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,7 +52,6 @@
 				AC131610EED45C7756172B76 /* Pods-WeatherGift.debug.xcconfig */,
 				39D82BE83E8CDFB01AED72C6 /* Pods-WeatherGift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				9F29C3A12353A8990080C430 /* AppDelegate.swift */,
+				9F8AB351235BADB200D7B0A4 /* WeatherLocation.swift */,
 				9F29C3B92353AEBE0080C430 /* PageVC.swift */,
 				9F29C3B52353AA1E0080C430 /* DetailVC.swift */,
 				9F29C3B72353ADA30080C430 /* ListVC.swift */,
@@ -228,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8AB352235BADB200D7B0A4 /* WeatherLocation.swift in Sources */,
 				9F29C3B82353ADA30080C430 /* ListVC.swift in Sources */,
 				9F29C3BA2353AEBE0080C430 /* PageVC.swift in Sources */,
 				9F29C3A22353A8990080C430 /* AppDelegate.swift in Sources */,
